@@ -14,14 +14,14 @@ main{
   width: 960px;
   margin: 50px auto;
   display: flex;
-  position: relative;
 }
 
 .step-box{
   width: 300px;
   padding: 10px;
   background-color: #eeeeee;
-}
+  position: relative; /*この行をmainより移動*/
+}                     /*mainにposition設定していたから全てのタイトルが左上に配置されていた*/
 
 .step-box:nth-child(2){ /*2個目のboxのみに左右margin指定*/
   margin: 0 30px;
@@ -36,12 +36,29 @@ main{
 }
 
 
+/*画像の設定*/
 .step1-img{
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
 }
+
+.step2-img{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step3-img{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+/*画像設定終了*/
+
 
 .text-title{
   margin: 15px 0 5px 0;
