@@ -84,4 +84,9 @@ footer{
     margin: 0 auto;
   }
 
+  .step-box:nth-child(2){ /*marginについて個別指定していたから他に合わせる*/
+    width: 90vw;
+    margin: 20px auto;
+}
+
 }
