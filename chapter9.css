@@ -79,4 +79,9 @@ footer{
     margin: 50px auto; 
   }
 
+  .step-box{ /*横幅変更＆要素自体を中央寄せ*/
+    width: 90vw;
+    margin: 0 auto;
+  }
+
 }
