@@ -76,7 +76,7 @@ footer{
   main{  /*flex-box解除*/
     display: block;
     width: 100vw;
-    margin: 50px auto; 
+    margin: 50px 0; 
   }
 
   .step-box{ /*横幅変更＆要素自体を中央寄せ*/
