@@ -14,15 +14,27 @@ main{
   width: 960px;
   margin: 50px auto;
   display: flex;
+  position: relative;
 }
 
 .step-box{
   width: 300px;
-  height: 300px; /*確認用後で削除*/
   padding: 10px;
-  margin: 30px;　/*確認用後で変更*/
   background-color: #eeeeee;
 }
+
+.step-box:nth-child(2){
+  margin: 0 30px;
+}
+
+.box-title{
+  background-color: #ff9a4b;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 
 
 footer{
